@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Saludo from "@/components/layout/main/saludos";
-import BarraNav from "@/components/layout/header/cabeza";
+import BarraNav from "@/components/layout/header/BarraNavegador";
 
 const inter = Inter({ subsets: ["latin"] });
 

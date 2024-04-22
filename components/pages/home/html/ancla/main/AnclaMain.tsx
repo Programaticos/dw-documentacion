@@ -1,9 +1,7 @@
-import Saludo from "@/components/layout/main/saludos";
 
 export default function AnclaMain(){
     return(
       <div>
-        <Saludo/>
         <h1>Anclas</h1>
         <p>
             Los anclas (en inglés, "anchors") crean un enlace a páginas de internet, archivos o 

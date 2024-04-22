@@ -1,10 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Saludo from "@/components/layout/main/saludos";
-import BarraNav from "@/components/layout/header/cabeza";
+import BarraNav from "@/components/layout/header/BarraNavegador";
 import Contador from "@/components/layout/footer/contador";
+import TituloPagina from "@/components/layout/header/TituloPagina";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
+        <TituloPagina titulo="Documentación completa desarrollo de interfaces"></TituloPagina>
         <BarraNav/>
-
+        <TituloPagina></TituloPagina>
       </header>
       <main>
-        <Saludo/>
+        
         <hr />
       </main>
       <footer>

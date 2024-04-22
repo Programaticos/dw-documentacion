@@ -1,4 +1,4 @@
-import BarraNav from "@/components/layout/header/cabeza";
+import BarraNav from "@/components/layout/header/BarraNavegador";
 import Head from "next/head";
 
 export default function AnclaHeader(){

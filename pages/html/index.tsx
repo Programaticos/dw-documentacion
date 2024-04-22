@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Saludo from "@/components/layout/main/saludos";
+import TituloPagina from "@/components/layout/header/TituloPagina";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,10 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-      <Saludo/>
+      <TituloPagina titulo="Documentación de HTML"></TituloPagina>
+      
       </header>
       <main>
-      <h1>DOCUMENTACIÓN PROFESIONAL HTML</h1>
         <div>
           <a href="/html/encabezados">Encabezados  &lt;h1&gt; &lt;h2&gt;</a>
         </div>
